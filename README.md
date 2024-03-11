@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# О проекте
+ToDo-list приложение на React, реализованы:
+- постраничная отрисовка постов
+- создание новых постов
+- отрисовка отдельной информации постов
+- простая авторизация
+- поиск постов
+- сортировка по полям
+- удаление постов
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Вышеуказанные функции и сущности реализованы благодаря
+- стандартным хукам react
+- доступ к данным через useContext
+- маршрутизация через react-router-dom 
+- запросы на сервер через axios
+Акцент сделан на декомпозиции и работе с данными, в качестве сервера использовался https://jsonplaceholder.typicode.com/
+
+
+# Начало работы
+
+```
+npm install
+```
+```
+npm start
+```
+
 
 ## Available Scripts
 
